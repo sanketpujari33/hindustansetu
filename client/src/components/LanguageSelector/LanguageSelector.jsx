@@ -1,6 +1,5 @@
-import { useDispatch, useSelector } from 'react-redux'; // Import useDispatch and useSelector from react-redux
-import { setLanguage } from '../../redux/slice/languageSlice'; // Import your setLanguage action
-
+import { useDispatch, useSelector } from 'react-redux';
+import { setLanguage } from '../../Redux/slice/languageSlice';
 
 const LanguageSelector = () => {
     const dispatch = useDispatch();
